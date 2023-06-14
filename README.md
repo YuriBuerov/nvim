@@ -1,4 +1,4 @@
-# My neovim configuration
+# My neovim configuration for Go & Typescript development
 
 Important: WIP, please do not use it blindly.
 
