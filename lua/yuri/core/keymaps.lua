@@ -7,6 +7,10 @@ local keymap = vim.keymap -- for conciseness
 -- General Keymaps
 ---------------------
 
+-- scroll up/down half a screen
+keymap.set("n", "<C-d>", "<C-d>zz")
+keymap.set("n", "<C-u>", "<C-u>zz")
+
 -- use jk to exit insert mode
 keymap.set("i", "jk", "<ESC>")
 

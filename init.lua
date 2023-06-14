@@ -15,6 +15,4 @@ require("yuri.plugins.autopairs")
 require("yuri.plugins.treesitter")
 require("yuri.plugins.gitsigns")
 require("yuri.plugins.tokyonight")
-
--- use it to enable/disable copilot for specific filetypes
-vim.g.copilot_filetypes = { markdown = true }
+require("yuri.plugins.copilot")
