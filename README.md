@@ -29,8 +29,9 @@ cp -r lua ~/.config/nvim
 cp init.lua ~/.config/nvim
 ```
 
-Download and install a [Nerd Font](https://www.nerdfonts.com/)
-Alternativly you can use [this installer](https://github.com/ronniedroid/getnf)
+Download and install a [Nerd Font](https://www.nerdfonts.com/).
+
+Alternativly you can use [this installer](https://github.com/ronniedroid/getnf).
 
 Download copilot pack:
 
