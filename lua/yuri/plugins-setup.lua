@@ -164,6 +164,14 @@ return packer.startup(function(use)
 		requires = { "nvim-tree/nvim-web-devicons" },
 	})
 
+	use({
+		"olexsmir/gopher.nvim",
+		requires = { -- dependencies
+			"nvim-lua/plenary.nvim",
+			"nvim-treesitter/nvim-treesitter",
+		},
+	})
+
 	if packer_bootstrap then
 		require("packer").sync()
 	end
